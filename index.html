@@ -1163,6 +1163,8 @@ fbq('init','1756397488781371');
     logEnquiry({
       ref:ref,
       type:"project",
+      items:(categories.length?categories.join("; "):projectName),
+      total:(budget||"Custom quotation"),
       name:name,
       email:email,
       business:business,
