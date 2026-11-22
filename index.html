@@ -1,0 +1,1236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Omnibus Africa Enquiry</title>
+<style>html,body{margin:0;background:#050505}</style>
+<!-- GA4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-267G9YMC2D"></script>
+<script>
+window.dataLayer=window.dataLayer||[];
+function gtag(){dataLayer.push(arguments);}
+gtag('js',new Date());
+gtag('config','G-267G9YMC2D',{send_page_view:false});
+</script>
+
+<!-- Meta Pixel -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src='https://connect.facebook.net/en_US/fbevents.js';s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script');
+fbq('init','1756397488781371');
+</script>
+</head>
+<body>
+
+<div id="oa-enquiry">
+
+<style>
+#oa-enquiry {
+  --oa-red:#d71920;
+  --oa-black:#050505;
+  --oa-border:#383838;
+  --oa-grey:#bdbdbd;
+  font-family:Arial,Helvetica,sans-serif;
+  color:#fff;
+  width:100%;
+  margin:0;
+  background:var(--oa-black);
+  font-size:14px;
+  overflow:visible;
+}
+#oa-enquiry *{box-sizing:border-box}
+#oa-enquiry .oa-hero{position:relative;width:100%;overflow:hidden;border-radius:0 0 8px 8px}
+#oa-enquiry .oa-hero img{display:block;width:100%;height:auto}
+#oa-enquiry .oa-hero:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,0,0,.58),rgba(0,0,0,.08));pointer-events:none}
+#oa-enquiry .oa-hero-title{position:absolute;z-index:2;left:7%;top:50%;transform:translateY(-50%);max-width:75%;color:#fff;font-size:clamp(25px,5vw,58px);line-height:1.05;font-weight:900;letter-spacing:-1.5px;text-transform:uppercase;text-shadow:0 3px 18px rgba(0,0,0,.45)}
+#oa-enquiry .oa-container{width:100%;max-width:900px;margin:0 auto;padding:35px 28px 45px}
+#oa-enquiry .oa-step{margin-bottom:38px}
+#oa-enquiry .oa-step-heading{color:#fff;font-size:19px;font-weight:800;margin-bottom:19px;text-transform:uppercase;letter-spacing:.4px;line-height:1.4}
+#oa-enquiry .oa-step-number{color:var(--oa-red);margin-right:8px}
+#oa-enquiry .oa-note{color:#bdbdbd;font-size:12px;line-height:1.7;margin:0 0 20px}
+
+/* 3D SERVICE AREA CAROUSEL */
+#oa-enquiry .oa-carousel-wrap{
+  position:relative;
+  margin:54px 0 30px;
+  padding:12px 0 10px;
+  isolation:isolate;
+}
+#oa-enquiry .oa-carousel-stage{
+  position:relative;
+  height:260px;
+  perspective:1100px;
+  touch-action:none;
+  overscroll-behavior:contain;
+  user-select:none;
+  -webkit-user-select:none;
+  cursor:grab;
+}
+#oa-enquiry .oa-carousel-stage:active{cursor:grabbing}
+#oa-enquiry .oa-division{
+  position:absolute;
+  inset:0;
+  border:1px solid rgba(255,255,255,.3);
+  border-radius:18px;
+  padding:1px;
+  overflow:hidden;
+  background:linear-gradient(135deg,rgba(255,255,255,.55),rgba(255,255,255,.05) 45%,rgba(255,255,255,.22));
+  box-shadow:0 22px 45px rgba(0,0,0,.48),inset 0 1px 0 rgba(255,255,255,.35);
+  transform-origin:center center;
+  transition:transform .38s cubic-bezier(.2,.75,.25,1),opacity .3s ease,filter .3s ease,border-color .3s ease;
+  will-change:transform;
+}
+#oa-enquiry .oa-division-main{
+  position:relative;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  width:100%;
+  height:100%;
+  min-height:0;
+  padding:25px 25px 21px;
+  border:0;
+  border-radius:17px;
+  color:#fff;
+  text-align:left;
+  cursor:pointer;
+  overflow:hidden;
+  background:
+    radial-gradient(ellipse at 90% 0%,rgba(255,255,255,.27),transparent 42%),
+    linear-gradient(135deg,rgba(255,255,255,.19),rgba(255,255,255,.025) 55%),
+    #151515;
+}
+#oa-enquiry .oa-division:nth-child(2) .oa-division-main{
+  background:radial-gradient(ellipse at 90% 0%,rgba(70,130,255,.34),transparent 48%),linear-gradient(135deg,rgba(255,255,255,.17),rgba(255,255,255,.025)),#11151c
+}
+#oa-enquiry .oa-division:nth-child(3) .oa-division-main{
+  background:radial-gradient(ellipse at 90% 0%,rgba(215,25,32,.36),transparent 48%),linear-gradient(135deg,rgba(255,255,255,.17),rgba(255,255,255,.025)),#1a1112
+}
+#oa-enquiry .oa-division:nth-child(4) .oa-division-main{
+  background:radial-gradient(ellipse at 90% 0%,rgba(190,145,55,.32),transparent 48%),linear-gradient(135deg,rgba(255,255,255,.17),rgba(255,255,255,.025)),#17150f
+}
+#oa-enquiry .oa-division-main:after{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:linear-gradient(115deg,transparent 15%,rgba(255,255,255,.075) 42%,transparent 65%);
+  pointer-events:none;
+}
+#oa-enquiry .oa-division-title{
+  display:block;
+  max-width:90%;
+  font-size:clamp(23px,3.5vw,34px);
+  line-height:1.15;
+  font-weight:900;
+  letter-spacing:-.7px;
+  color:#fff;
+  text-shadow:0 3px 14px rgba(0,0,0,.35);
+}
+#oa-enquiry .oa-division-kicker{
+  color:rgba(255,255,255,.65);
+  font-size:10px;
+  font-weight:800;
+  text-transform:uppercase;
+  letter-spacing:2px;
+  margin-bottom:12px;
+}
+#oa-enquiry .oa-division-bottom{display:flex;align-items:center;justify-content:space-between;gap:10px}
+#oa-enquiry .oa-division-hint{color:#e0e0e0;font-size:13px;line-height:1.4;font-weight:600}
+#oa-enquiry .oa-division-check{
+  display:flex;align-items:center;justify-content:center;
+  width:31px;height:31px;flex-shrink:0;
+  border:1px solid rgba(255,255,255,.65);
+  border-radius:50%;color:transparent;font-size:17px;font-weight:900;
+  background:rgba(0,0,0,.18)
+}
+#oa-enquiry .oa-division.selected{border-color:var(--oa-red);box-shadow:0 0 0 2px var(--oa-red),0 20px 45px rgba(215,25,32,.25)}
+#oa-enquiry .oa-division.selected .oa-division-check{background:var(--oa-red);border-color:var(--oa-red);color:#fff}
+#oa-enquiry .oa-division.details-open{z-index:10!important}
+#oa-enquiry .oa-division-details{
+  display:none;
+  position:absolute;
+  inset:0;
+  z-index:3;
+  padding:24px;
+  border-radius:17px;
+  background:linear-gradient(145deg,rgba(15,15,15,.97),rgba(30,30,30,.97));
+  overflow-y:auto;
+  overscroll-behavior:contain;
+  -webkit-overflow-scrolling:touch;
+}
+#oa-enquiry .oa-division.details-open .oa-division-details{display:block}
+#oa-enquiry .oa-division-details p{color:#e0e0e0;font-size:14px;line-height:1.7;margin:0 0 15px}
+#oa-enquiry .oa-division-details strong{display:block;color:#fff;font-size:12px;margin-bottom:8px;text-transform:uppercase;letter-spacing:.7px}
+#oa-enquiry .oa-division-details ul{margin:0;padding-left:19px;color:#d0d0d0;font-size:13px;line-height:1.9}
+#oa-enquiry .oa-division-details-button{
+  margin-top:16px;padding:9px 13px;border:1px solid rgba(255,255,255,.35);
+  border-radius:5px;background:rgba(255,255,255,.08);color:#fff;
+  font-size:12px;font-weight:700;cursor:pointer
+}
+#oa-enquiry .oa-carousel-controls{display:flex;align-items:center;justify-content:center;gap:18px;margin-top:17px}
+#oa-enquiry .oa-carousel-arrow{
+  width:39px;height:39px;border-radius:50%;border:1px solid #555;
+  background:#151515;color:#fff;font-size:20px;cursor:pointer;
+}
+#oa-enquiry .oa-carousel-arrow:hover{background:#292929;border-color:#aaa}
+#oa-enquiry .oa-carousel-position{font-size:11px;color:#bbb;letter-spacing:1px;min-width:65px;text-align:center}
+#oa-enquiry .oa-carousel-instruction{text-align:center;color:#888;font-size:11px;margin-top:10px}
+#oa-enquiry .oa-selection-status{margin-top:20px;padding:13px 15px;border:1px solid #333;border-radius:6px;background:#111;color:#bbb;font-size:12px;line-height:1.7}
+#oa-enquiry .oa-selection-status strong{color:#fff}
+
+/* FORM FIELDS */
+#oa-enquiry .oa-fields{display:grid;grid-template-columns:1fr 1fr;gap:19px}
+#oa-enquiry .oa-field{display:flex;flex-direction:column;gap:8px;width:100%;min-width:0}
+#oa-enquiry .oa-field.full{grid-column:1/-1}
+#oa-enquiry .oa-field label{display:block!important;visibility:visible!important;opacity:1!important;color:#fff!important;font-size:13px;font-weight:700;line-height:1.5}
+#oa-enquiry .oa-field label .required{color:#ff656b}
+#oa-enquiry input,#oa-enquiry select,#oa-enquiry textarea{
+  display:block;width:100%;max-width:100%;min-width:0;min-height:48px;padding:13px 14px;
+  border:1px solid #ddd;border-radius:5px;font-family:Arial,Helvetica,sans-serif;
+  font-size:14px;line-height:1.4;background:#fff!important;color:#222!important;outline:none;box-shadow:none
+}
+#oa-enquiry input::placeholder,#oa-enquiry textarea::placeholder{color:#777!important;opacity:1!important}
+#oa-enquiry input:focus,#oa-enquiry select:focus,#oa-enquiry textarea:focus{border-color:var(--oa-red);box-shadow:0 0 0 2px rgba(215,25,32,.12)}
+#oa-enquiry select{appearance:auto;-webkit-appearance:auto;cursor:pointer}
+#oa-enquiry textarea{min-height:115px;resize:vertical}
+
+/* PROJECT CATEGORY PICKER */
+#oa-enquiry .oa-project-picker{position:relative;width:100%}
+#oa-enquiry .oa-project-picker-label{color:#bdbdbd;font-size:11px;font-weight:700;letter-spacing:.4px;margin:12px 0 7px}
+#oa-enquiry .oa-project-category-trigger{display:flex;align-items:center;justify-content:space-between;gap:12px;width:100%;min-height:48px;padding:13px 14px;border:1px solid #ddd;border-radius:5px;background:#fff;color:#555;font-family:Arial,Helvetica,sans-serif;font-size:14px;text-align:left;cursor:pointer}
+#oa-enquiry .oa-project-category-trigger:hover,#oa-enquiry .oa-project-category-trigger:focus{border-color:var(--oa-red);outline:none}
+#oa-enquiry .oa-picker-arrow{color:#555;font-size:17px;flex-shrink:0}
+#oa-enquiry .oa-project-category-panel{position:absolute;top:calc(100% + 6px);left:0;right:0;z-index:100;background:#191919;border:1px solid #555;border-radius:7px;box-shadow:0 10px 28px rgba(0,0,0,.45);max-height:min(360px,55vh);overflow:hidden}
+#oa-enquiry .oa-project-category-panel[hidden]{display:none!important}
+#oa-enquiry .oa-project-category-panel-heading{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:12px 14px;color:#fff;border-bottom:1px solid #383838}
+#oa-enquiry .oa-project-category-panel-heading strong{font-size:13px}
+#oa-enquiry .oa-project-category-close{background:transparent;border:0;color:#fff;font-size:24px;line-height:1;cursor:pointer;padding:3px 5px;flex-shrink:0}
+#oa-enquiry .oa-project-category-options{max-height:300px;overflow-y:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch}
+#oa-enquiry .oa-project-category-option{
+  display:flex;
+  align-items:flex-start;
+  gap:11px;
+  width:100%;
+  text-align:left;
+  background:#191919;
+  color:#fff;
+  border:0;
+  border-bottom:1px solid #383838;
+  padding:13px 14px;
+  cursor:pointer;
+  font-family:Arial,Helvetica,sans-serif;
+}
+#oa-enquiry .oa-project-category-option:last-child{border-bottom:none}
+#oa-enquiry .oa-project-category-option:hover,#oa-enquiry .oa-project-category-option.selected{background:#2a1b1c}
+#oa-enquiry .oa-project-category-option input[type="checkbox"]{
+  width:17px;
+  height:17px;
+  min-height:17px;
+  flex-shrink:0;
+  margin:2px 0 0;
+  padding:0;
+  accent-color:var(--oa-red);
+  cursor:pointer;
+}
+#oa-enquiry .oa-project-category-option-content{display:block;flex:1;min-width:0}
+#oa-enquiry .oa-project-category-option strong{display:block;font-size:13px;margin-bottom:4px;color:#fff}
+#oa-enquiry .oa-project-category-option span{display:block;color:#bbb;font-size:11px;line-height:1.5;white-space:normal}
+#oa-enquiry .oa-category-empty{padding:16px;color:#bbb;font-size:12px;line-height:1.6}
+#oa-enquiry .oa-selected-categories{display:flex;flex-wrap:wrap;gap:8px;margin-top:11px}
+#oa-enquiry .oa-category-chip{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  max-width:100%;
+  padding:7px 10px;
+  border:1px solid rgba(215,25,32,.55);
+  border-radius:5px;
+  background:#211315;
+  color:#fff;
+  font-size:11px;
+  line-height:1.5;
+}
+#oa-enquiry .oa-category-chip span{overflow-wrap:anywhere}
+#oa-enquiry .oa-category-chip button{
+  border:0;
+  padding:0;
+  background:transparent;
+  color:#ff777c;
+  font-size:17px;
+  line-height:1;
+  cursor:pointer;
+  flex-shrink:0;
+}
+#oa-enquiry .oa-category-selection-note{color:#888;font-size:11px;line-height:1.6;margin-top:8px}
+
+/* SUMMARY */
+#oa-enquiry .oa-summary{background:#191919;padding:22px;border-radius:7px;border:1px solid #333;margin-top:25px}
+#oa-enquiry .oa-summary h3{color:#fff;font-size:15px;margin:0 0 15px;text-transform:uppercase}
+#oa-enquiry .oa-summary-line{display:flex;justify-content:space-between;align-items:flex-start;gap:15px;padding:11px 0;font-size:13px;border-bottom:1px solid #383838;color:#eee;line-height:1.5}
+#oa-enquiry .oa-summary-line span{flex:1;min-width:0}
+#oa-enquiry .oa-summary-line strong{text-align:right;color:#fff;white-space:normal}
+#oa-enquiry .oa-total{display:flex;justify-content:space-between;align-items:center;gap:15px;padding-top:17px;font-weight:800;font-size:15px;color:#fff}
+#oa-enquiry .oa-total span:last-child{text-align:right}
+#oa-enquiry .oa-summary-note{color:#bdbdbd;font-size:11px;line-height:1.7;margin-top:15px}
+#oa-enquiry .oa-button{display:block;width:100%;min-height:52px;padding:17px;border:none;border-radius:5px;background:var(--oa-red);color:#fff;font-size:14px;font-weight:800;letter-spacing:.5px;cursor:pointer;margin-top:22px;text-align:center;transition:.2s ease}
+#oa-enquiry .oa-button:hover{background:#a90e15}
+#oa-enquiry .oa-error{color:#ff656b;font-size:12px;margin-top:10px;line-height:1.6}
+
+@media(max-width:600px){
+  #oa-enquiry .oa-container{padding:24px 18px 35px}
+  #oa-enquiry .oa-step{margin-bottom:32px}
+  #oa-enquiry .oa-step-heading{font-size:17px;margin-bottom:17px}
+  #oa-enquiry .oa-fields{grid-template-columns:1fr;gap:18px}
+  #oa-enquiry .oa-carousel-wrap{margin:45px 0 25px;padding:10px 0}
+  #oa-enquiry .oa-carousel-stage{height:245px}
+  #oa-enquiry .oa-division-main{padding:22px}
+  #oa-enquiry .oa-division-title{font-size:clamp(23px,7vw,30px)}
+  #oa-enquiry .oa-division-details{padding:19px}
+  #oa-enquiry .oa-summary{padding:16px}
+  #oa-enquiry .oa-summary-line{font-size:12px}
+  #oa-enquiry .oa-total{font-size:14px}
+  #oa-enquiry .oa-hero-title{left:6%;max-width:88%;font-size:clamp(23px,7vw,38px)}
+}
+@media(max-width:360px){
+  #oa-enquiry .oa-container{padding-left:14px;padding-right:14px}
+  #oa-enquiry .oa-carousel-stage{height:225px}
+}
+@media(prefers-reduced-motion:reduce){
+  #oa-enquiry .oa-division{transition:none}
+}
+</style>
+
+<!-- HERO -->
+<div class="oa-hero">
+  <img src="https://storage.mlcdn.com/account_image/2758158/iZbjmOFN4lhmYYZX5T4RvTrvM19OpdQVhwSddbZn.jpg" alt="Omnibus Africa — Go beyond boundaries">
+  <div class="oa-hero-title">Go beyond boundaries</div>
+</div>
+
+<div class="oa-container">
+
+  <!-- STEP 01 -->
+  <section class="oa-step">
+    <div class="oa-step-heading"><span class="oa-step-number">01</span>What brings you here?</div>
+    <p class="oa-note">
+      Explore the service areas below. Scroll or swipe through the interactive cards, select every area relevant to your project, and open the details to learn more.
+    </p>
+
+    <div class="oa-carousel-wrap">
+      <div class="oa-carousel-stage" id="oa-carousel-stage" aria-label="Explore service areas" tabindex="0">
+
+        <article class="oa-division" data-division="business">
+          <button type="button" class="oa-division-main" aria-pressed="false">
+            <span>
+              <span class="oa-division-kicker">01 / SERVICE AREA</span>
+              <span class="oa-division-title">Business Development</span>
+            </span>
+            <span class="oa-division-bottom">
+              <span class="oa-division-hint">Tap to select this area</span>
+              <span class="oa-division-check" aria-hidden="true">✓</span>
+            </span>
+          </button>
+          <div class="oa-division-details">
+            <p>Professional support for business structure, planning, documentation and operational development.</p>
+            <strong>Potential outcomes</strong>
+            <ul>
+              <li>Clearer business direction and objectives.</li>
+              <li>Stronger business documentation and planning.</li>
+              <li>Improved operational readiness and organisation.</li>
+            </ul>
+            <button type="button" class="oa-division-details-button">Close details</button>
+          </div>
+        </article>
+
+        <article class="oa-division" data-division="digital">
+          <button type="button" class="oa-division-main" aria-pressed="false">
+            <span>
+              <span class="oa-division-kicker">02 / SERVICE AREA</span>
+              <span class="oa-division-title">Digital Infrastructure</span>
+            </span>
+            <span class="oa-division-bottom">
+              <span class="oa-division-hint">Tap to select this area</span>
+              <span class="oa-division-check" aria-hidden="true">✓</span>
+            </span>
+          </button>
+          <div class="oa-division-details">
+            <p>Digital platforms, business tools and technology setup that help businesses operate and connect with customers online.</p>
+            <strong>Potential outcomes</strong>
+            <ul>
+              <li>Improved online accessibility and presence.</li>
+              <li>Better customer communication channels.</li>
+              <li>More organised digital business operations.</li>
+            </ul>
+            <button type="button" class="oa-division-details-button">Close details</button>
+          </div>
+        </article>
+
+        <article class="oa-division" data-division="creative">
+          <button type="button" class="oa-division-main" aria-pressed="false">
+            <span>
+              <span class="oa-division-kicker">03 / SERVICE AREA</span>
+              <span class="oa-division-title">Creative Services</span>
+            </span>
+            <span class="oa-division-bottom">
+              <span class="oa-division-hint">Tap to select this area</span>
+              <span class="oa-division-check" aria-hidden="true">✓</span>
+            </span>
+          </button>
+          <div class="oa-division-details">
+            <p>Visual identity, design and creative materials that help businesses present their products, services and brand professionally.</p>
+            <strong>Potential outcomes</strong>
+            <ul>
+              <li>More consistent brand presentation.</li>
+              <li>Clearer product and service communication.</li>
+              <li>Professional marketing and presentation materials.</li>
+            </ul>
+            <button type="button" class="oa-division-details-button">Close details</button>
+          </div>
+        </article>
+
+        <article class="oa-division" data-division="marketing">
+          <button type="button" class="oa-division-main" aria-pressed="false">
+            <span>
+              <span class="oa-division-kicker">04 / SERVICE AREA</span>
+              <span class="oa-division-title">Marketing and Advertising</span>
+            </span>
+            <span class="oa-division-bottom">
+              <span class="oa-division-hint">Tap to select this area</span>
+              <span class="oa-division-check" aria-hidden="true">✓</span>
+            </span>
+          </button>
+          <div class="oa-division-details">
+            <p>Promotional strategy, advertising and audience engagement designed to increase market visibility and generate business enquiries.</p>
+            <strong>Potential outcomes</strong>
+            <ul>
+              <li>Increased campaign reach and visibility.</li>
+              <li>Stronger audience engagement.</li>
+              <li>More enquiries and measurable marketing activity.</li>
+            </ul>
+            <button type="button" class="oa-division-details-button">Close details</button>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="oa-carousel-controls">
+        <button type="button" class="oa-carousel-arrow" id="oa-carousel-prev" aria-label="Previous service area">‹</button>
+        <span class="oa-carousel-position" id="oa-carousel-position">01 / 04</span>
+        <button type="button" class="oa-carousel-arrow" id="oa-carousel-next" aria-label="Next service area">›</button>
+      </div>
+      <div class="oa-carousel-instruction">SWIPE · SCROLL · OR USE THE ARROWS TO EXPLORE</div>
+    </div>
+
+    <div class="oa-selection-status" id="oa-selection-status" aria-live="polite">
+      <strong>No service areas selected.</strong> Select at least one area to view the relevant project categories.
+    </div>
+  </section>
+
+  <!-- STEP 02 -->
+  <section class="oa-step">
+    <div class="oa-step-heading"><span class="oa-step-number">02</span>Your Details</div>
+    <div class="oa-fields">
+      <div class="oa-field full"><label for="oa-name">Your full name <span class="required">*</span></label><input id="oa-name" type="text" placeholder="Enter your full name" required></div>
+      <div class="oa-field full"><label for="oa-email">Email address <span class="required">*</span></label><input id="oa-email" type="email" placeholder="you@example.com" required></div>
+      <div class="oa-field full"><label for="oa-business">Your business name</label><input id="oa-business" type="text" placeholder="Enter your business or brand name"></div>
+      <div class="oa-field full">
+        <label for="oa-role">What best describes your role?</label>
+        <select id="oa-role">
+          <option value="">Select your role</option><option>Founder</option><option>Co-founder</option><option>Business Owner</option><option>Manager</option><option>Individual</option><option>Other</option>
+        </select>
+      </div>
+      <div class="oa-field full">
+        <label for="oa-country">Country <span class="required">*</span></label>
+        <select id="oa-country" required>
+          <option value="Nigeria" selected>Nigeria</option><option value="United States">United States</option><option value="United Kingdom">United Kingdom</option><option value="Canada">Canada</option><option value="Australia">Australia</option><option value="Ghana">Ghana</option><option value="Kenya">Kenya</option><option value="South Africa">South Africa</option><option value="Germany">Germany</option><option value="France">France</option><option value="Italy">Italy</option><option value="Spain">Spain</option><option value="Netherlands">Netherlands</option><option value="Belgium">Belgium</option><option value="Ireland">Ireland</option><option value="Portugal">Portugal</option><option value="Austria">Austria</option><option value="Other">Other</option>
+        </select>
+      </div>
+      <div class="oa-field full">
+        <label for="oa-currency">Preferred pricing currency</label>
+        <select id="oa-currency">
+          <option value="NGN">NGN — Nigerian Naira</option><option value="USD">USD — US Dollar</option><option value="GBP">GBP — British Pound</option><option value="GHS">GHS — Ghanaian Cedi</option><option value="ZAR">ZAR — South African Rand</option><option value="KES">KES — Kenyan Shilling</option><option value="CAD">CAD — Canadian Dollar</option><option value="AUD">AUD — Australian Dollar</option><option value="AED">AED — UAE Dirham</option><option value="SAR">SAR — Saudi Riyal</option><option value="EUR">EUR — Euro</option>
+        </select>
+      </div>
+      <div class="oa-field full">
+        <label for="oa-contact">Preferred contact channel</label>
+        <select id="oa-contact"><option value="WhatsApp">WhatsApp</option><option value="Email">Email</option></select>
+      </div>
+      <div class="oa-field full"><label for="oa-social">Website or social media link</label><input id="oa-social" type="url" placeholder="https://"></div>
+    </div>
+  </section>
+
+  <!-- STEP 03 -->
+  <section class="oa-step">
+    <div class="oa-step-heading"><span class="oa-step-number">03</span>Tell us about your project</div>
+    <p class="oa-note">Tell us about your project, objectives and expectations. This will help us understand the scope of work and determine how Omnibus Africa can support you.</p>
+
+    <div class="oa-fields">
+      <div class="oa-field full">
+        <label for="oa-project-name">What is the project or engagement about?</label>
+        <input id="oa-project-name" type="text" placeholder="Briefly describe your project or give it a name (optional)">
+
+        <input type="hidden" id="oa-project-category" value="">
+
+        <div class="oa-project-picker">
+          <div class="oa-project-picker-label">OR CHOOSE PROJECT CATEGORIES</div>
+
+          <button type="button" class="oa-project-category-trigger" id="oa-project-category-trigger" aria-expanded="false" aria-controls="oa-project-category-panel">
+            <span id="oa-project-category-selected">Select your service areas first</span>
+            <span class="oa-picker-arrow" aria-hidden="true">⌄</span>
+          </button>
+
+          <div class="oa-selected-categories" id="oa-selected-categories"></div>
+
+          <div class="oa-category-selection-note">You can select multiple categories across all the service areas you have chosen.</div>
+
+          <div class="oa-project-category-panel" id="oa-project-category-panel" hidden>
+            <div class="oa-project-category-panel-heading">
+              <strong>Select one or more project categories</strong>
+              <button type="button" class="oa-project-category-close" id="oa-project-category-close" aria-label="Close category selection">×</button>
+            </div>
+            <div class="oa-project-category-options" id="oa-project-category-options"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="oa-field full"><label for="oa-project-goal">What would you like to achieve? <span class="required">*</span></label><textarea id="oa-project-goal" placeholder="Describe the objectives and expected outcomes of this project"></textarea></div>
+      <div class="oa-field full"><label for="oa-project-budget">What is your estimated budget?</label><select id="oa-project-budget"><option value="">Select your budget range</option></select></div>
+      <div class="oa-field full">
+        <label for="oa-project-duration">Expected engagement duration</label>
+        <select id="oa-project-duration"><option value="">Select duration</option><option>One-time project</option><option>1 month</option><option>2–3 months</option><option>3–6 months</option><option>6 months or longer</option><option>Not yet determined</option></select>
+      </div>
+      <div class="oa-field full">
+        <label for="oa-project-timeline">When would you like to commence?</label>
+        <select id="oa-project-timeline"><option value="">Select a timeframe</option><option>Immediately</option><option>Within 2 weeks</option><option>Within a month</option><option>Within 1–3 months</option><option>Still planning</option></select>
+      </div>
+      <div class="oa-field full"><label for="oa-project-notes">Additional information</label><textarea id="oa-project-notes" placeholder="Share any other information that may help us understand your requirements"></textarea></div>
+    </div>
+  </section>
+
+  <!-- SUMMARY -->
+  <section class="oa-step">
+    <div class="oa-summary">
+      <h3>Project Enquiry Summary</h3>
+      <div id="oa-summary-items"><p class="oa-note">Your project details will appear here as you complete the form.</p></div>
+      <div class="oa-total"><span>Estimated Project Cost</span><span id="oa-total">Custom quotation</span></div>
+      <p class="oa-summary-note" id="oa-summary-note">Project pricing will be determined after reviewing your objectives, scope and expected deliverables.</p>
+    </div>
+    <button type="button" class="oa-button" id="oa-submit">SUBMIT PROJECT ENQUIRY</button>
+    <div id="oa-error" class="oa-error" role="alert"></div>
+  </section>
+
+</div>
+
+<script>
+(function(){
+  const root=document.getElementById("oa-enquiry");
+  if(!root||root.dataset.initialised==="true")return;
+  root.dataset.initialised="true";
+
+  const whatsappBase="https://api.whatsapp.com/send?phone=2347082011291&text=";
+  const logURL="https://script.google.com/macros/s/AKfycbzfIIlXab7TdYYNjkkyRf7kbL4HjKrnnt_wcju8u3nwVX6Tu7oY8D3UO77l0xoVD-aI/exec";
+
+  let currentCurrency="NGN";
+  const selectedDivisions=new Set();
+  const selectedCategories=new Set();
+
+  const projectCategories={
+    business:[
+      {name:"Business Launch & Setup Support",description:"Business documentation, registration coordination, brand preparation and professional support for businesses preparing to launch."},
+      {name:"Research, Feasibility & Business Planning",description:"Market research, feasibility studies, business plans, project assessments and investment-related research."},
+      {name:"Business Operations & Management Support",description:"Operational planning, process improvement, administrative systems and ongoing business management support."}
+    ],
+    digital:[
+      {name:"Digital Infrastructure & Technology Setup",description:"Website and landing page development, social media setup, WhatsApp Business, Google Business Profile and other digital business tools."},
+      {name:"App & Software Development",description:"Development of digital applications, business software and technology solutions based on defined requirements."},
+      {name:"Digital Business Platform Setup",description:"Setup and configuration of online business platforms, digital stores and customer-facing systems."}
+    ],
+    creative:[
+      {name:"Brand Identity & Creative Development",description:"Logo and branding, visual identity, product visuals and creative materials for consistent brand presentation."},
+      {name:"Business & Corporate Communication Materials",description:"Company profiles, brochures, presentation slides, business documents and other professional communication materials."},
+      {name:"Promotional & Outdoor Creative Materials",description:"Flyers, billboard banners, lamp post banners, vertical banners, roll-up stands and backdrop designs."}
+    ],
+    marketing:[
+      {name:"Digital Marketing & Advertising Campaigns",description:"Campaign planning, sponsored advertising, audience targeting, market reach and brand awareness."},
+      {name:"Social Media Management",description:"Ongoing social media planning, content coordination, publishing, account management and audience engagement."},
+      {name:"Physical Workspace & Outdoor Advertising",description:"Physical branding and promotional visibility for business premises, offices, workspaces and outdoor locations."}
+    ]
+  };
+
+  const divisionNames={
+    business:"Business Development",
+    digital:"Digital Infrastructure",
+    creative:"Creative Services",
+    marketing:"Marketing and Advertising"
+  };
+
+  const budgetRanges={
+    NGN:["Below ₦100,000","₦100,000 – ₦250,000","₦250,001 – ₦500,000","₦500,001 – ₦1 million","₦1 million – ₦2.5 million","₦2.5 million – ₦5 million","₦5 million – ₦10 million","₦10 million – ₦25 million","₦25 million – ₦50 million","Above ₦50 million"],
+    USD:["Below $100","$100 – $250","$251 – $500","$501 – $1,000","$1,001 – $2,500","$2,501 – $5,000","$5,001 – $10,000","$10,001 – $25,000","$25,001 – $50,000","Above $50,000"],
+    GBP:["Below £100","£100 – £250","£251 – £500","£501 – £1,000","£1,001 – £2,500","£2,501 – £5,000","£5,001 – £10,000","£10,001 – £25,000","£25,001 – £50,000","Above £50,000"],
+    GHS:["Below GH₵1,000","GH₵1,000 – GH₵2,500","GH₵2,501 – GH₵5,000","GH₵5,001 – GH₵10,000","GH₵10,001 – GH₵25,000","GH₵25,001 – GH₵50,000","GH₵50,001 – GH₵100,000","GH₵100,001 – GH₵250,000","GH₵250,001 – GH₵500,000","Above GH₵500,000"],
+    ZAR:["Below R1,000","R1,000 – R2,500","R2,501 – R5,000","R5,001 – R10,000","R10,001 – R25,000","R25,001 – R50,000","R50,001 – R100,000","R100,001 – R250,000","R250,001 – R500,000","Above R500,000"],
+    KES:["Below KSh10,000","KSh10,000 – KSh25,000","KSh25,001 – KSh50,000","KSh50,001 – KSh100,000","KSh100,001 – KSh250,000","KSh250,001 – KSh500,000","KSh500,001 – KSh1 million","KSh1 million – KSh2.5 million","KSh2.5 million – KSh5 million","Above KSh5 million"],
+    CAD:["Below C$100","C$100 – C$250","C$251 – C$500","C$501 – C$1,000","C$1,001 – C$2,500","C$2,501 – C$5,000","C$5,001 – C$10,000","C$10,001 – C$25,000","C$25,001 – C$50,000","Above C$50,000"],
+    AUD:["Below A$100","A$100 – A$250","A$251 – A$500","A$501 – A$1,000","A$1,001 – A$2,500","A$2,501 – A$5,000","A$5,001 – A$10,000","A$10,001 – A$25,000","A$25,001 – A$50,000","Above A$50,000"],
+    AED:["Below د.إ400","د.إ400 – د.إ1,000","د.إ1,001 – د.إ2,000","د.إ2,001 – د.إ4,000","د.إ4,001 – د.إ10,000","د.إ10,001 – د.إ20,000","د.إ20,001 – د.إ40,000","د.إ40,001 – د.إ100,000","د.إ100,001 – د.إ200,000","Above د.إ200,000"],
+    SAR:["Below ر.س400","ر.س400 – ر.س1,000","ر.س1,001 – ر.س2,000","ر.س2,001 – ر.س4,000","ر.س4,001 – ر.س10,000","ر.س10,001 – ر.س20,000","ر.س20,001 – ر.س40,000","ر.س40,001 – ر.س100,000","ر.س100,001 – ر.س200,000","Above ر.س200,000"],
+    EUR:["Below €100","€100 – €250","€251 – €500","€501 – €1,000","€1,001 – €2,500","€2,501 – €5,000","€5,001 – €10,000","€10,001 – €25,000","€25,001 – €50,000","Above €50,000"]
+  };
+
+  const summaryItems=root.querySelector("#oa-summary-items");
+  const totalElement=root.querySelector("#oa-total");
+  const errorElement=root.querySelector("#oa-error");
+  const projectCategoryInput=root.querySelector("#oa-project-category");
+  const projectCategoryTrigger=root.querySelector("#oa-project-category-trigger");
+  const projectCategorySelected=root.querySelector("#oa-project-category-selected");
+  const projectCategoryPanel=root.querySelector("#oa-project-category-panel");
+  const projectCategoryOptions=root.querySelector("#oa-project-category-options");
+  const projectCategoryClose=root.querySelector("#oa-project-category-close");
+  const selectedCategoriesContainer=root.querySelector("#oa-selected-categories");
+
+  function getValue(id){
+    const element=root.querySelector("#"+id);
+    return element?element.value.trim():"";
+  }
+
+  function escapeHTML(value){
+    return String(value).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[c]));
+  }
+
+  function makeRef(){
+    const d=new Date();
+    return "OA-"+String(d.getMonth()+1).padStart(2,"0")+String(d.getDate()).padStart(2,"0")+"-"+Math.floor(1000+Math.random()*9000);
+  }
+
+  function logEnquiry(data){
+    try{
+      fetch(logURL,{
+        method:"POST",
+        mode:"no-cors",
+        keepalive:true,
+        headers:{"Content-Type":"text/plain"},
+        body:JSON.stringify(data)
+      });
+    }catch(e){}
+  }
+
+  /* INFINITE 3D CAROUSEL */
+  const cards=Array.from(root.querySelectorAll(".oa-division"));
+  const stage=root.querySelector("#oa-carousel-stage");
+  const position=root.querySelector("#oa-carousel-position");
+
+  let activeIndex=0;
+  let wheelLock=false;
+  let touchStartY=0;
+  let touchStartX=0;
+  let touchMoved=false;
+
+  function renderCarousel(){
+    const count=cards.length;
+
+    cards.forEach((card,index)=>{
+      const offset=(index-activeIndex+count)%count;
+      const normalized=offset>count/2?offset-count:offset;
+      const distance=Math.abs(normalized);
+      const direction=normalized<0?-1:1;
+      const visible=distance<=2;
+      const scale=distance===0?1:distance===1?.91:.82;
+      const y=normalized===0?0:normalized*54;
+      const rotate=normalized===0?0:direction*2.5;
+
+      card.style.zIndex=String(10-distance);
+      card.style.opacity=visible?(distance===2?.42:1):"0";
+      card.style.pointerEvents=distance===0?"auto":"none";
+      card.style.transform=`translate3d(0,${y}px,${distance===0?0:-35*distance}px) rotateX(${rotate}deg) scale(${scale})`;
+      card.style.filter=distance===0?"none":"brightness(.62) saturate(.8)";
+      card.setAttribute("aria-hidden",distance===0?"false":"true");
+    });
+
+    position.textContent=String(activeIndex+1).padStart(2,"0")+" / 04";
+  }
+
+  function moveCarousel(step){
+    activeIndex=(activeIndex+step+cards.length)%cards.length;
+    cards.forEach(card=>card.classList.remove("details-open"));
+    renderCarousel();
+  }
+
+  root.querySelector("#oa-carousel-prev").addEventListener("click",()=>moveCarousel(-1));
+  root.querySelector("#oa-carousel-next").addEventListener("click",()=>moveCarousel(1));
+
+  stage.addEventListener("wheel",event=>{
+    if(Math.abs(event.deltaY)<8)return;
+
+    event.preventDefault();
+    event.stopPropagation();
+
+    if(wheelLock)return;
+
+    wheelLock=true;
+    moveCarousel(event.deltaY>0?1:-1);
+    setTimeout(()=>wheelLock=false,430);
+  },{passive:false});
+
+  stage.addEventListener("touchstart",event=>{
+    const touch=event.touches[0];
+    touchStartY=touch.clientY;
+    touchStartX=touch.clientX;
+    touchMoved=false;
+  },{passive:true});
+
+  stage.addEventListener("touchmove",event=>{
+    const touch=event.touches[0];
+    const dy=touch.clientY-touchStartY;
+    const dx=touch.clientX-touchStartX;
+
+    if(Math.abs(dy)>Math.abs(dx)&&Math.abs(dy)>8){
+      event.preventDefault();
+      event.stopPropagation();
+      touchMoved=true;
+    }
+  },{passive:false});
+
+  stage.addEventListener("touchend",event=>{
+    const touch=event.changedTouches[0];
+    const dy=touch.clientY-touchStartY;
+    const dx=touch.clientX-touchStartX;
+
+    if(touchMoved&&Math.abs(dy)>35&&Math.abs(dy)>Math.abs(dx)){
+      moveCarousel(dy<0?1:-1);
+    }
+  },{passive:true});
+
+  stage.addEventListener("keydown",event=>{
+    if(event.key==="ArrowDown"||event.key==="ArrowRight"){
+      event.preventDefault();
+      moveCarousel(1);
+    }
+
+    if(event.key==="ArrowUp"||event.key==="ArrowLeft"){
+      event.preventDefault();
+      moveCarousel(-1);
+    }
+  });
+
+  renderCarousel();
+
+  /* SERVICE AREA SELECTION AND DETAILS */
+  cards.forEach(card=>{
+    const key=card.dataset.division;
+    const selectButton=card.querySelector(".oa-division-main");
+    const detailsButton=card.querySelector(".oa-division-details-button");
+
+    selectButton.addEventListener("click",()=>{
+      if(selectedDivisions.has(key)){
+        selectedDivisions.delete(key);
+      }else{
+        selectedDivisions.add(key);
+      }
+
+      const selected=selectedDivisions.has(key);
+
+      card.classList.toggle("selected",selected);
+      selectButton.setAttribute("aria-pressed",String(selected));
+      card.querySelector(".oa-division-hint").textContent=selected?"Selected":"Tap to select this area";
+
+      renderProjectCategoryOptions();
+      updateDivisionStatus();
+      updateProjectSummary();
+    });
+
+    detailsButton.addEventListener("click",()=>{
+      card.classList.remove("details-open");
+    });
+
+    const expand=document.createElement("button");
+    expand.type="button";
+    expand.className="oa-division-details-button";
+    expand.textContent="View service area details";
+    expand.setAttribute("aria-expanded","false");
+
+    expand.addEventListener("click",()=>{
+      const open=card.classList.toggle("details-open");
+      expand.setAttribute("aria-expanded",String(open));
+      expand.textContent=open?"Close details":"View service area details";
+    });
+
+    card.querySelector(".oa-division-details").insertBefore(
+      expand,
+      card.querySelector(".oa-division-details").firstChild
+    );
+  });
+
+  function updateDivisionStatus(){
+    const status=root.querySelector("#oa-selection-status");
+
+    if(!selectedDivisions.size){
+      status.innerHTML="<strong>No service areas selected.</strong> Select at least one area to view the relevant project categories.";
+      return;
+    }
+
+    const names=Array.from(selectedDivisions).map(key=>divisionNames[key]);
+
+    status.innerHTML="<strong>Selected service areas:</strong> "+
+      names.map(escapeHTML).join(", ")+
+      ". Your project categories have been updated below.";
+  }
+
+  /* PROJECT CATEGORY PICKER — MULTI-SELECT */
+
+  function getAvailableProjectCategories(){
+    const result=[];
+    const seen=new Set();
+
+    selectedDivisions.forEach(key=>{
+      (projectCategories[key]||[]).forEach(category=>{
+        if(!seen.has(category.name)){
+          seen.add(category.name);
+          result.push(category);
+        }
+      });
+    });
+
+    return result;
+  }
+
+  function syncCategoryInput(){
+    projectCategoryInput.value=Array.from(selectedCategories).join("; ");
+  }
+
+  function closeProjectCategoryPanel(){
+    projectCategoryPanel.hidden=true;
+    projectCategoryTrigger.setAttribute("aria-expanded","false");
+  }
+
+  function openProjectCategoryPanel(){
+    if(!selectedDivisions.size)return;
+
+    projectCategoryPanel.hidden=false;
+    projectCategoryTrigger.setAttribute("aria-expanded","true");
+  }
+
+  function renderSelectedCategoryChips(){
+    selectedCategoriesContainer.innerHTML="";
+
+    if(!selectedCategories.size)return;
+
+    selectedCategories.forEach(categoryName=>{
+      const chip=document.createElement("div");
+      chip.className="oa-category-chip";
+
+      const text=document.createElement("span");
+      text.textContent=categoryName;
+
+      const remove=document.createElement("button");
+      remove.type="button";
+      remove.textContent="×";
+      remove.setAttribute("aria-label","Remove "+categoryName);
+      remove.addEventListener("click",()=>{
+        selectedCategories.delete(categoryName);
+        renderProjectCategoryOptions();
+        updateProjectSummary();
+      });
+
+      chip.append(text,remove);
+      selectedCategoriesContainer.appendChild(chip);
+    });
+  }
+
+  function renderProjectCategoryOptions(){
+    const available=getAvailableProjectCategories();
+    const availableNames=new Set(available.map(category=>category.name));
+
+    /* Remove categories belonging to service areas that are no longer selected */
+    Array.from(selectedCategories).forEach(categoryName=>{
+      if(!availableNames.has(categoryName)){
+        selectedCategories.delete(categoryName);
+      }
+    });
+
+    syncCategoryInput();
+    renderSelectedCategoryChips();
+
+    projectCategoryOptions.innerHTML="";
+
+    if(!available.length){
+      projectCategorySelected.textContent="Select your service areas first";
+
+      const empty=document.createElement("div");
+      empty.className="oa-category-empty";
+      empty.textContent="Select one or more service areas above to see the relevant project categories.";
+
+      projectCategoryOptions.appendChild(empty);
+      closeProjectCategoryPanel();
+      return;
+    }
+
+    projectCategorySelected.textContent=selectedCategories.size
+      ?selectedCategories.size+" project categor"+(selectedCategories.size===1?"y":"ies")+" selected"
+      :"Choose one or more project categories";
+
+    available.forEach(category=>{
+      const option=document.createElement("label");
+      option.className="oa-project-category-option";
+
+      if(selectedCategories.has(category.name)){
+        option.classList.add("selected");
+      }
+
+      const checkbox=document.createElement("input");
+      checkbox.type="checkbox";
+      checkbox.checked=selectedCategories.has(category.name);
+      checkbox.value=category.name;
+      checkbox.setAttribute("aria-label",category.name);
+
+      const content=document.createElement("span");
+      content.className="oa-project-category-option-content";
+
+      const title=document.createElement("strong");
+      title.textContent=category.name;
+
+      const description=document.createElement("span");
+      description.textContent=category.description;
+
+      content.append(title,description);
+      option.append(checkbox,content);
+
+      checkbox.addEventListener("change",()=>{
+        if(checkbox.checked){
+          selectedCategories.add(category.name);
+        }else{
+          selectedCategories.delete(category.name);
+        }
+
+        option.classList.toggle("selected",checkbox.checked);
+
+        syncCategoryInput();
+        renderSelectedCategoryChips();
+
+        projectCategorySelected.textContent=selectedCategories.size
+          ?selectedCategories.size+" project categor"+(selectedCategories.size===1?"y":"ies")+" selected"
+          :"Choose one or more project categories";
+
+        updateProjectSummary();
+      });
+
+      projectCategoryOptions.appendChild(option);
+    });
+  }
+
+  projectCategoryTrigger.addEventListener("click",()=>{
+    if(projectCategoryPanel.hidden){
+      openProjectCategoryPanel();
+    }else{
+      closeProjectCategoryPanel();
+    }
+  });
+
+  projectCategoryClose.addEventListener("click",closeProjectCategoryPanel);
+
+  document.addEventListener("click",event=>{
+    if(
+      !projectCategoryPanel.hidden&&
+      !event.target.closest("#oa-enquiry .oa-project-picker")
+    ){
+      closeProjectCategoryPanel();
+    }
+  });
+
+  root.addEventListener("keydown",event=>{
+    if(event.key==="Escape"&&!projectCategoryPanel.hidden){
+      closeProjectCategoryPanel();
+      projectCategoryTrigger.focus();
+    }
+  });
+
+  /* SUMMARY */
+  function addSummaryLine(name,value){
+    const line=document.createElement("div");
+    line.className="oa-summary-line";
+
+    const title=document.createElement("span");
+    title.textContent=name;
+
+    const amount=document.createElement("strong");
+    amount.textContent=value;
+
+    line.append(title,amount);
+    summaryItems.appendChild(line);
+  }
+
+  function updateProjectSummary(){
+    summaryItems.innerHTML="";
+
+    const areas=Array.from(selectedDivisions).map(key=>divisionNames[key]);
+    const projectName=getValue("oa-project-name");
+    const categories=Array.from(selectedCategories);
+    const budget=getValue("oa-project-budget");
+    const duration=getValue("oa-project-duration");
+    const timeline=getValue("oa-project-timeline");
+
+    if(areas.length){
+      addSummaryLine("Service areas",areas.join(", "));
+    }
+
+    if(projectName){
+      addSummaryLine("Project / Engagement",projectName);
+    }
+
+    if(categories.length){
+      addSummaryLine("Project Categories",categories.join("; "));
+    }
+
+    if(budget){
+      addSummaryLine("Estimated Budget",budget);
+    }
+
+    if(duration){
+      addSummaryLine("Engagement Duration",duration);
+    }
+
+    if(timeline){
+      addSummaryLine("Commencement",timeline);
+    }
+
+    if(!areas.length&&!projectName&&!categories.length&&!budget&&!duration&&!timeline){
+      summaryItems.innerHTML='<p class="oa-note">Your project details will appear here as you complete the form.</p>';
+    }
+
+    totalElement.textContent="Custom quotation";
+  }
+
+  /* CURRENCY */
+  const countryCurrencySuggestions={
+    "Nigeria":"NGN",
+    "United States":"USD",
+    "United Kingdom":"GBP",
+    "Canada":"CAD",
+    "Australia":"AUD",
+    "Ghana":"GHS",
+    "Kenya":"KES",
+    "South Africa":"ZAR",
+    "Germany":"EUR",
+    "France":"EUR",
+    "Italy":"EUR",
+    "Spain":"EUR",
+    "Netherlands":"EUR",
+    "Belgium":"EUR",
+    "Ireland":"EUR",
+    "Portugal":"EUR",
+    "Austria":"EUR",
+    "Other":"USD"
+  };
+
+  root.querySelector("#oa-country").addEventListener("change",function(){
+    currentCurrency=countryCurrencySuggestions[this.value]||"USD";
+    root.querySelector("#oa-currency").value=currentCurrency;
+    renderProjectBudgetOptions();
+    updateProjectSummary();
+  });
+
+  root.querySelector("#oa-currency").addEventListener("change",function(){
+    currentCurrency=this.value;
+    renderProjectBudgetOptions();
+    updateProjectSummary();
+  });
+
+  function renderProjectBudgetOptions(){
+    const select=root.querySelector("#oa-project-budget");
+    const previous=select.value;
+
+    select.innerHTML="";
+
+    const placeholder=document.createElement("option");
+    placeholder.value="";
+    placeholder.textContent="Select your budget range";
+    select.appendChild(placeholder);
+
+    (budgetRanges[currentCurrency]||budgetRanges.NGN).forEach(range=>{
+      const option=document.createElement("option");
+      option.value=range;
+      option.textContent=range;
+      select.appendChild(option);
+    });
+
+    ["Not yet determined","Open to professional recommendation"].forEach(range=>{
+      const option=document.createElement("option");
+      option.value=range;
+      option.textContent=range;
+      select.appendChild(option);
+    });
+
+    if(Array.from(select.options).some(option=>option.value===previous)){
+      select.value=previous;
+    }
+  }
+
+  [
+    "oa-project-name",
+    "oa-project-budget",
+    "oa-project-duration",
+    "oa-project-timeline",
+    "oa-project-goal",
+    "oa-project-notes"
+  ].forEach(id=>{
+    const field=root.querySelector("#"+id);
+    field.addEventListener("input",updateProjectSummary);
+    field.addEventListener("change",updateProjectSummary);
+  });
+
+  /* VALIDATION */
+  function validateDetails(){
+    const name=getValue("oa-name");
+    const email=getValue("oa-email");
+    const country=getValue("oa-country");
+
+    if(!name||!email||!country){
+      errorElement.textContent="Please complete your full name, email address and country.";
+      return false;
+    }
+
+    if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)){
+      errorElement.textContent="Please enter a valid email address.";
+      return false;
+    }
+
+    return true;
+  }
+
+  /* TRACKING */
+  function trackGA4Event(eventName,parameters={}){
+    if(typeof window.gtag==="function"){
+      window.gtag("event",eventName,parameters);
+    }
+  }
+
+  function trackMetaEvent(eventName,parameters={}){
+    if(typeof window.fbq==="function"){
+      window.fbq("track",eventName,parameters);
+    }
+  }
+
+  /* WHATSAPP ENQUIRY */
+  function submitWhatsApp(){
+    const ref=makeRef();
+
+    const name=getValue("oa-name");
+    const email=getValue("oa-email");
+    const business=getValue("oa-business");
+    const role=getValue("oa-role");
+    const country=getValue("oa-country");
+    const contact=getValue("oa-contact");
+    const social=getValue("oa-social");
+
+    const areas=Array.from(selectedDivisions).map(key=>divisionNames[key]);
+    const projectName=getValue("oa-project-name");
+    const categories=Array.from(selectedCategories);
+
+    const goal=getValue("oa-project-goal");
+    const budget=getValue("oa-project-budget");
+    const duration=getValue("oa-project-duration");
+    const timeline=getValue("oa-project-timeline");
+    const notes=getValue("oa-project-notes");
+
+    let message="OMNIBUS AFRICA — NEW PROJECT ENQUIRY\n";
+    message+="Ref: "+ref+"\n\nCUSTOMER DETAILS\n";
+
+    message+="Name: "+name+"\n";
+    message+="Email: "+email+"\n";
+    message+="Business: "+(business||"Not provided")+"\n";
+    message+="Position: "+(role||"Not provided")+"\n";
+    message+="Country: "+country+"\n";
+    message+="Currency: "+currentCurrency+"\n";
+    message+="Website/Social: "+(social||"Not provided")+"\n";
+    message+="Preferred Contact: "+contact+"\n\n";
+
+    message+="SELECTED AREAS OF SUPPORT\n";
+    areas.forEach((area,index)=>{
+      message+=(index+1)+". "+area+"\n";
+    });
+
+    message+="\nPROJECT / ENGAGEMENT DETAILS\n";
+    message+="Project: "+(projectName||"Not provided")+"\n";
+    message+="Project Categories: "+(categories.length?categories.join("; "):"Not selected")+"\n";
+    message+="Objectives:\n"+goal+"\n";
+    message+="Estimated Budget: "+(budget||"Not specified")+"\n";
+    message+="Engagement Duration: "+(duration||"Not specified")+"\n";
+    message+="Commencement: "+(timeline||"Not specified")+"\n";
+    message+="Additional Information:\n"+(notes||"None provided")+"\n\n";
+
+    message+="PRICE: To be determined after reviewing project scope.\n\n";
+    message+="Please follow up with this customer.";
+
+    logEnquiry({
+      ref:ref,
+      type:"project",
+      name:name,
+      email:email,
+      business:business,
+      role:role,
+      country:country,
+      currency:currentCurrency,
+      divisions:areas.join("; "),
+      service_areas:areas.join("; "),
+      project:projectName,
+      category:categories.join("; "),
+      objectives:goal,
+      budget:budget,
+      duration:duration,
+      timeline:timeline,
+      notes:notes,
+      contact:contact,
+      social:social
+    });
+
+    window.open(whatsappBase+encodeURIComponent(message),"_blank");
+  }
+
+  /* SUBMISSION */
+  root.querySelector("#oa-submit").addEventListener("click",function(){
+    errorElement.textContent="";
+
+    if(!validateDetails())return;
+
+    if(!selectedDivisions.size){
+      errorElement.textContent="Please select at least one service area.";
+      return;
+    }
+
+    if(!getValue("oa-project-name")&&!selectedCategories.size){
+      errorElement.textContent="Please provide a project description or select at least one project category.";
+      return;
+    }
+
+    if(!getValue("oa-project-goal")){
+      errorElement.textContent="Please describe what you would like to achieve with this project.";
+      return;
+    }
+
+    trackGA4Event("contact_whatsapp",{
+      enquiry_type:"project",
+      currency:currentCurrency,
+      service_areas:Array.from(selectedDivisions).join(", "),
+      project_categories:Array.from(selectedCategories).join(", ")
+    });
+
+    trackMetaEvent("Contact",{
+      content_name:"Projects & Professional Engagements Enquiry",
+      content_category:"WhatsApp Enquiry"
+    });
+
+    submitWhatsApp();
+  });
+
+  /* INITIALISE */
+  renderProjectBudgetOptions();
+  renderProjectCategoryOptions();
+  updateDivisionStatus();
+  updateProjectSummary();
+
+})();
+</script>
+
+</div>
+
+</body>
+</html>
